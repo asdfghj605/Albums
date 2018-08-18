@@ -1,0 +1,48 @@
+
+body{
+    font-family:Arial;
+}
+
+
+.section_01{
+    /* vh 和 vw 是用裝置的比例去換算 */
+    height:100vh;  
+    width:100vw;
+
+    background: url(images/big_pic.jpg) center center fixed no-repeat;
+            /* 圖片在不同裝置上都可滿版 */
+            background-size: cover;             /* IE */
+			-webkit-background-size: cover;     /* Chrome、Safari */
+			-moz-background-size: cover;        /* Firefox */
+			-o-background-size: cover;          /* Opera */
+            
+	background-attachment: fixed; /* 滾輪往下移，圖不動*/
+}
+
+
+#navbar {
+    background:rgba(0, 0, 0, 0.5);
+    height:60px;
+}
+
+#navbar_list{
+    width:20%;
+    height:60px;
+    color:#fff;
+}
+
+#navbar_list:hover{
+    background:#fff;
+    color:#000;
+    cursor: pointer;
+}
+
+.section01_left{
+    padding-top:10%;
+}
+
+
+
+
+
+
